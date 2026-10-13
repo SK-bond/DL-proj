@@ -1,0 +1,26 @@
+
+@'
+# Dataset
+DL dataset/
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Large model checkpoints
+*.pth
+*.pt
+*.keras
+*.h5
+*.safetensors
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+'@ | Set-Content -Encoding utf8 .gitignore
