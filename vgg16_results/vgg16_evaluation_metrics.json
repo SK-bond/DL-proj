@@ -1,0 +1,21 @@
+{
+    "model": "VGG16",
+    "best_epoch": 24,
+    "best_validation_macro_f1": 0.7365975346222403,
+    "test_loss": 1.6806741878191631,
+    "test_accuracy": 0.7426666666666667,
+    "macro_precision": 0.7463615470677103,
+    "macro_recall": 0.7426666666666667,
+    "macro_f1": 0.7439001212772365,
+    "weighted_f1": 0.7439001212772366,
+    "train_images": 2800,
+    "validation_images": 700,
+    "test_images": 750,
+    "classes": [
+        "Mild_DR",
+        "Moderate_DR",
+        "No_DR",
+        "Proliferative_DR",
+        "Severe_DR"
+    ]
+}

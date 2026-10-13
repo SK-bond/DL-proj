@@ -1,0 +1,31 @@
+{
+    "model": "DenseNet121",
+    "dataset": "DR_balanced_split",
+    "test_samples": 750,
+    "training_samples": 2975,
+    "validation_samples": 525,
+    "num_classes": 5,
+    "epochs": 50,
+    "batch_size": 8,
+    "gradient_accumulation": 4,
+    "effective_batch_size": 32,
+    "accuracy": 0.7866666666666666,
+    "accuracy_percent": 78.66666666666666,
+    "weighted_precision": 0.7993358169793403,
+    "weighted_recall": 0.7866666666666666,
+    "weighted_f1": 0.7902311914646338,
+    "weighted_f1_percent": 79.02311914646339,
+    "macro_precision": 0.7993358169793404,
+    "macro_recall": 0.7866666666666666,
+    "macro_f1": 0.7902311914646338,
+    "macro_f1_percent": 79.02311914646339,
+    "test_loss": 0.6819154815673828,
+    "evaluation_time_seconds": 86.51523399353027,
+    "class_names": [
+        "Mild_DR",
+        "Moderate_DR",
+        "No_DR",
+        "Proliferative_DR",
+        "Severe_DR"
+    ]
+}

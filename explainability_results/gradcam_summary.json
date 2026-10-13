@@ -1,0 +1,102 @@
+[
+    {
+        "type": "correct",
+        "image": "20170420184440359.jpg",
+        "true_class": 0,
+        "true_label": "No DR",
+        "predicted_class": 0,
+        "predicted_label": "No DR",
+        "confidence": 0.8101679682731628,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\correct_class_0_No_DR.png"
+    },
+    {
+        "type": "correct",
+        "image": "007-2336-100.jpg",
+        "true_class": 1,
+        "true_label": "Mild DR",
+        "predicted_class": 1,
+        "predicted_label": "Mild DR",
+        "confidence": 0.40408486127853394,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\correct_class_1_Mild_DR.png"
+    },
+    {
+        "type": "correct",
+        "image": "007-5187-300.jpg",
+        "true_class": 2,
+        "true_label": "Moderate DR",
+        "predicted_class": 2,
+        "predicted_label": "Moderate DR",
+        "confidence": 0.8309596180915833,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\correct_class_2_Moderate_DR.png"
+    },
+    {
+        "type": "correct",
+        "image": "007-5988-300.jpg",
+        "true_class": 3,
+        "true_label": "Severe DR",
+        "predicted_class": 3,
+        "predicted_label": "Severe DR",
+        "confidence": 0.7787463068962097,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\correct_class_3_Severe_DR.png"
+    },
+    {
+        "type": "correct",
+        "image": "007-7205-400.jpg",
+        "true_class": 4,
+        "true_label": "Proliferative DR",
+        "predicted_class": 4,
+        "predicted_label": "Proliferative DR",
+        "confidence": 0.5135610699653625,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\correct_class_4_Proliferative_DR.png"
+    },
+    {
+        "type": "misclassified",
+        "image": "007-1868-100.jpg",
+        "true_class": 0,
+        "true_label": "No DR",
+        "predicted_class": 1,
+        "predicted_label": "Mild DR",
+        "confidence": 0.8091099262237549,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\misclassified_1_true_0_pred_1.png"
+    },
+    {
+        "type": "misclassified",
+        "image": "007-2260-100.jpg",
+        "true_class": 1,
+        "true_label": "Mild DR",
+        "predicted_class": 2,
+        "predicted_label": "Moderate DR",
+        "confidence": 0.8477576971054077,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\misclassified_2_true_1_pred_2.png"
+    },
+    {
+        "type": "misclassified",
+        "image": "20170510111425409.jpg",
+        "true_class": 3,
+        "true_label": "Severe DR",
+        "predicted_class": 2,
+        "predicted_label": "Moderate DR",
+        "confidence": 0.9927524328231812,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\misclassified_3_true_3_pred_2.png"
+    },
+    {
+        "type": "misclassified",
+        "image": "20170323085835482.jpg",
+        "true_class": 0,
+        "true_label": "No DR",
+        "predicted_class": 2,
+        "predicted_label": "Moderate DR",
+        "confidence": 0.49721041321754456,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\misclassified_4_true_0_pred_2.png"
+    },
+    {
+        "type": "misclassified",
+        "image": "007-0705-000.jpg",
+        "true_class": 1,
+        "true_label": "Mild DR",
+        "predicted_class": 0,
+        "predicted_label": "No DR",
+        "confidence": 0.9677942991256714,
+        "output_file": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\explainability_results\\misclassified_5_true_1_pred_0.png"
+    }
+]

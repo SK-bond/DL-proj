@@ -1,0 +1,16 @@
+{
+    "classes": [
+        "Mild_DR",
+        "Moderate_DR",
+        "No_DR",
+        "Proliferative_DR",
+        "Severe_DR"
+    ],
+    "class_to_idx": {
+        "Mild_DR": 0,
+        "Moderate_DR": 1,
+        "No_DR": 2,
+        "Proliferative_DR": 3,
+        "Severe_DR": 4
+    }
+}

@@ -1,0 +1,36 @@
+VISION TRANSFORMER EVALUATION
+======================================================================
+
+Model: C:\Users\sheev\OneDrive\Desktop\DL proj\models\vit_b16_v2_best.pth
+Test samples: 1879
+
+Test Loss : 0.6569
+Accuracy  : 0.7807
+Precision : 0.8076
+Recall    : 0.7807
+F1 Score  : 0.7896
+
+Evaluation Time: 1.54 minutes
+
+CONFUSION MATRIX
+----------------------------------------------------------------------
+                  No DR  Mild DR  Moderate DR  Severe DR  Proliferative DR
+No DR               847       46           46          0                 1
+Mild DR              40       33           22          0                 0
+Moderate DR          88       78          473         29                 4
+Severe DR             0        0           11         23                 1
+Proliferative DR      1        1           37          7                91
+
+CLASSIFICATION REPORT
+----------------------------------------------------------------------
+                  precision    recall  f1-score   support
+
+           No DR     0.8678    0.9011    0.8841       940
+         Mild DR     0.2089    0.3474    0.2609        95
+     Moderate DR     0.8031    0.7039    0.7502       672
+       Severe DR     0.3898    0.6571    0.4894        35
+Proliferative DR     0.9381    0.6642    0.7778       137
+
+        accuracy                         0.7807      1879
+       macro avg     0.6415    0.6547    0.6325      1879
+    weighted avg     0.8076    0.7807    0.7896      1879

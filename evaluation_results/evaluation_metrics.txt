@@ -1,0 +1,40 @@
+DIABETIC RETINOPATHY - RESNET50
+FINAL TEST EVALUATION
+======================================================================
+
+MODEL
+------
+ResNet50 - Improved Experiment 2
+Checkpoint: C:\Users\sheev\OneDrive\Desktop\DL proj\models\resnet50_exp2_improved_best.pth
+
+OVERALL METRICS
+---------------
+Test Accuracy       : 80.84%
+Macro Precision     : 66.60%
+Macro Recall        : 62.43%
+Macro F1            : 64.07%
+Weighted Precision  : 80.24%
+Weighted Recall     : 80.84%
+Weighted F1         : 80.35%
+
+CONFUSION MATRIX
+----------------
+[[832  19  87   1   1]
+ [ 37  15  43   0   0]
+ [ 67  28 556  12   9]
+ [  0   0  16  19   0]
+ [  0   1  36   3  97]]
+
+CLASSIFICATION REPORT
+---------------------
+                  precision    recall  f1-score   support
+
+           No DR     0.8889    0.8851    0.8870       940
+         Mild DR     0.2381    0.1579    0.1899        95
+     Moderate DR     0.7534    0.8274    0.7887       672
+       Severe DR     0.5429    0.5429    0.5429        35
+Proliferative DR     0.9065    0.7080    0.7951       137
+
+        accuracy                         0.8084      1879
+       macro avg     0.6660    0.6243    0.6407      1879
+    weighted avg     0.8024    0.8084    0.8035      1879

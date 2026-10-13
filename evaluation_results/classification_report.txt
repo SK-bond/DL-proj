@@ -1,0 +1,18 @@
+DIABETIC RETINOPATHY - RESNET50
+TEST SET CLASSIFICATION REPORT
+======================================================================
+
+Model: C:\Users\sheev\OneDrive\Desktop\DL proj\models\resnet50_exp2_improved_best.pth
+Test samples: 1879
+
+                  precision    recall  f1-score   support
+
+           No DR     0.8889    0.8851    0.8870       940
+         Mild DR     0.2381    0.1579    0.1899        95
+     Moderate DR     0.7534    0.8274    0.7887       672
+       Severe DR     0.5429    0.5429    0.5429        35
+Proliferative DR     0.9065    0.7080    0.7951       137
+
+        accuracy                         0.8084      1879
+       macro avg     0.6660    0.6243    0.6407      1879
+    weighted avg     0.8024    0.8084    0.8035      1879

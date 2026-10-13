@@ -1,0 +1,60 @@
+{
+    "model": "ResNet50 Improved Experiment 2",
+    "checkpoint": "C:\\Users\\sheev\\OneDrive\\Desktop\\DL proj\\models\\resnet50_exp2_improved_best.pth",
+    "test_samples": 1879,
+    "accuracy": 0.8084087280468334,
+    "accuracy_percent": 80.84087280468334,
+    "macro_precision": 0.665954171958275,
+    "macro_recall": 0.6242536824278432,
+    "macro_f1": 0.6406917226945588,
+    "macro_f1_percent": 64.06917226945588,
+    "weighted_precision": 0.802366837477953,
+    "weighted_recall": 0.8084087280468334,
+    "weighted_f1": 0.8034660242063174,
+    "weighted_f1_percent": 80.34660242063174,
+    "evaluation_time_seconds": 58.26691651344299,
+    "class_names": [
+        "No DR",
+        "Mild DR",
+        "Moderate DR",
+        "Severe DR",
+        "Proliferative DR"
+    ],
+    "confusion_matrix": [
+        [
+            832,
+            19,
+            87,
+            1,
+            1
+        ],
+        [
+            37,
+            15,
+            43,
+            0,
+            0
+        ],
+        [
+            67,
+            28,
+            556,
+            12,
+            9
+        ],
+        [
+            0,
+            0,
+            16,
+            19,
+            0
+        ],
+        [
+            0,
+            1,
+            36,
+            3,
+            97
+        ]
+    ]
+}

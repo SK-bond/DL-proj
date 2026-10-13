@@ -1,0 +1,6 @@
+image,actual_class,predicted_class,confidence,correct,gradcam_file
+007-2047-100.jpg,Mild_DR,Mild_DR,0.9946873188018799,True,01_Mild_DR_pred_Mild_DR_007-2047-100.png
+007-2123-100.jpg,Moderate_DR,Moderate_DR,0.7827931046485901,True,02_Moderate_DR_pred_Moderate_DR_007-2123-100.png
+20170415095710294.jpg,No_DR,No_DR,0.7257435321807861,True,03_No_DR_pred_No_DR_20170415095710294.png
+007-6666-400.jpg,Proliferative_DR,No_DR,0.9904056191444397,False,04_Proliferative_DR_pred_No_DR_007-6666-400.png
+007-3931-200_aug_0091.jpg,Severe_DR,Severe_DR,0.9812445044517517,True,05_Severe_DR_pred_Severe_DR_007-3931-200_aug_0091.png

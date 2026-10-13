@@ -1,0 +1,4 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1,Test Loss
+ResNet50,80.13,80.64,80.13,80.31,0.7368405016462009
+DenseNet121,78.67,79.93,78.67,79.02,0.6819154815673828
+ViT,,,,,

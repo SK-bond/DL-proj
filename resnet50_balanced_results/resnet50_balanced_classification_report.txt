@@ -1,0 +1,15 @@
+RESNET50 BALANCED DATASET
+DIABETIC RETINOPATHY CLASSIFICATION
+======================================================================
+
+                  precision    recall  f1-score   support
+
+         Mild_DR     0.7024    0.7867    0.7421       150
+     Moderate_DR     0.6776    0.6867    0.6821       150
+           No_DR     0.7862    0.7600    0.7729       150
+Proliferative_DR     0.9143    0.8533    0.8828       150
+       Severe_DR     0.9517    0.9200    0.9356       150
+
+        accuracy                         0.8013       750
+       macro avg     0.8064    0.8013    0.8031       750
+    weighted avg     0.8064    0.8013    0.8031       750

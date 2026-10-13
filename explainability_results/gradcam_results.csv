@@ -1,0 +1,9 @@
+image_id,actual_class,predicted_class,confidence,type,output_folder
+20170420184440359.jpg,No DR,No DR,0.8321,correct,1_correct_actual_No_DR_predicted_No_DR
+20170407203619163.jpg,No DR,Mild DR,0.5662,misclassified,2_misclassified_actual_No_DR_predicted_Mild_DR
+007-5187-300.jpg,Moderate DR,Severe DR,0.5553,misclassified,3_misclassified_actual_Moderate_DR_predicted_Severe_DR
+20170611090346213.jpg,Moderate DR,Moderate DR,0.7481,correct,4_correct_actual_Moderate_DR_predicted_Moderate_DR
+007-1868-100.jpg,No DR,Moderate DR,0.5789,misclassified,5_misclassified_actual_No_DR_predicted_Moderate_DR
+007-7205-400.jpg,Proliferative DR,Proliferative DR,0.8512,correct,6_correct_actual_Proliferative_DR_predicted_Proliferative_DR
+007-2104-100.jpg,Mild DR,Mild DR,0.4769,correct,7_correct_actual_Mild_DR_predicted_Mild_DR
+007-3447-200.jpg,Severe DR,Severe DR,0.8539,correct,8_correct_actual_Severe_DR_predicted_Severe_DR

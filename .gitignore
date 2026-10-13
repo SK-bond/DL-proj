@@ -1,0 +1,11 @@
+DL dataset/
+*.pth
+*.pt
+*.keras
+*.h5
+*.safetensors
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

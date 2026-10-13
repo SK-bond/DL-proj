@@ -1,0 +1,10 @@
+{
+    "model": "Vision Transformer ViT-B/16",
+    "test_samples": 1879,
+    "test_loss": 0.6568626932732408,
+    "accuracy": 0.7807344332091538,
+    "precision_weighted": 0.8075696967112111,
+    "recall_weighted": 0.7807344332091538,
+    "f1_weighted": 0.7896139682875906,
+    "evaluation_time_minutes": 1.5402722358703613
+}

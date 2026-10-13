@@ -1,0 +1,6 @@
+,Mild_DR,Moderate_DR,No_DR,Proliferative_DR,Severe_DR
+Mild_DR,102,25,17,2,4
+Moderate_DR,13,111,17,6,3
+No_DR,13,23,114,0,0
+Proliferative_DR,4,17,1,125,3
+Severe_DR,0,11,0,1,138
