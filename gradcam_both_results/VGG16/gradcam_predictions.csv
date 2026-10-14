@@ -1,0 +1,11 @@
+model,image,true_label,predicted_label,confidence,correct,visualization,probability_Mild_DR,probability_Moderate_DR,probability_No_DR,probability_Proliferative_DR,probability_Severe_DR
+VGG16,007-2429-100_aug_0192.jpg,Mild_DR,Mild_DR,1.0,True,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\007-2429-100_aug_0192_true-Mild_DR_pred-Mild_DR.png,1.0,0.0,0.0,0.0,0.0
+VGG16,007-3217-100.jpg,Mild_DR,Moderate_DR,0.529916,False,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\007-3217-100_true-Mild_DR_pred-Moderate_DR.png,0.461278,0.529916,0.007279,0.00038,0.001148
+VGG16,20170506144904972.jpg,Moderate_DR,Mild_DR,0.597633,False,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\20170506144904972_true-Moderate_DR_pred-Mild_DR.png,0.597633,0.150612,0.251739,4e-06,1.3e-05
+VGG16,007-5040-300.jpg,Moderate_DR,Severe_DR,0.999982,False,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\007-5040-300_true-Moderate_DR_pred-Severe_DR.png,0.0,6e-06,0.0,1.1e-05,0.999982
+VGG16,20170430193930489.jpg,No_DR,No_DR,1.0,True,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\20170430193930489_true-No_DR_pred-No_DR.png,0.0,0.0,1.0,0.0,0.0
+VGG16,20170427190749126.jpg,No_DR,No_DR,1.0,True,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\20170427190749126_true-No_DR_pred-No_DR.png,0.0,0.0,1.0,0.0,0.0
+VGG16,007-6715-400.jpg,Proliferative_DR,Proliferative_DR,1.0,True,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\007-6715-400_true-Proliferative_DR_pred-Proliferative_DR.png,0.0,0.0,0.0,1.0,0.0
+VGG16,007-6671-400.jpg,Proliferative_DR,Moderate_DR,0.997,False,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\007-6671-400_true-Proliferative_DR_pred-Moderate_DR.png,0.002704,0.997,0.0,0.000296,0.0
+VGG16,007-4290-200_aug_0275.jpg,Severe_DR,Severe_DR,1.0,True,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\007-4290-200_aug_0275_true-Severe_DR_pred-Severe_DR.png,0.0,0.0,0.0,0.0,1.0
+VGG16,007-5556-300.jpg,Severe_DR,Moderate_DR,0.987784,False,C:\Users\sheev\OneDrive\Desktop\DL proj\gradcam_both_results\VGG16\007-5556-300_true-Severe_DR_pred-Moderate_DR.png,0.0,0.987784,0.0,0.0,0.012216
